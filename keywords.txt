@@ -1,0 +1,118 @@
+﻿#######################################
+# Syntax Coloring Map
+# SEN55  //paulvha October 2024
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+# structure
+sen_values	KEYWORD1
+sen_values_pm	KEYWORD1
+sen_tmp_comp	KEYWORD1
+sen_version	KEYWORD1
+sen_xox	KEYWORD1
+
+# sen_values  sen_values_pm from Sen55
+MassPM1	KEYWORD1
+MassPM1	KEYWORD1
+MassPM2	KEYWORD1
+MassPM4	KEYWORD1
+MassPM10	KEYWORD1
+NumPM0	KEYWORD1
+NumPM1	KEYWORD1
+NumPM2	KEYWORD1
+NumPM4	KEYWORD1
+NumPM10	KEYWORD1
+PartSize	KEYWORD1
+VOC	KEYWORD1
+NOx	KEYWORD1
+NOX	KEYWORD1
+Temp	KEYWORD1
+Hum	KEYWORD1
+
+# sen_version 
+F_major	KEYWORD1
+F_minor	KEYWORD1
+H_major	KEYWORD1
+H_minor	KEYWORD1
+P_major	KEYWORD1
+P_minor	KEYWORD1
+L_major	KEYWORD1
+L_minor	KEYWORD1
+F_debug	KEYWORD1
+
+# sen_xox
+IndexOffset	KEYWORD1
+LearnTimeOffsetHours	KEYWORD1
+LearnTimeGainHours	KEYWORD1
+GateMaxDurationMin	KEYWORD1
+stdInitial	KEYWORD1
+GainFactor	KEYWORD1
+
+# sen_tmp_comp
+offset	KEYWORD1
+slope	KEYWORD1
+time	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SEN55	KEYWORD2
+sen55	KEYWORD2
+begin	KEYWORD2
+EnableDebugging	KEYWORD2
+probe	KEYWORD2
+reset	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+clean	KEYWORD2
+GetStatusReg	KEYWORD2
+I2C_expect	KEYWORD2
+GetErrDescription	KEYWORD2
+GetSerialNumber	KEYWORD2
+GetProductName	KEYWORD2
+GetVersion	KEYWORD2
+GetValues	KEYWORD2
+GetValuesPM	KEYWORD2
+GetAutoCleanInt	KEYWORD2
+SetAutoCleanInt	KEYWORD2
+GetNoxAlgorithm	KEYWORD2
+SetNoxAlgorithm	KEYWORD2
+GetVocAlgorithm	KEYWORD2
+SetVocAlgorithm	KEYWORD2
+GetVocAlgorithmState	KEYWORD2
+SetVocAlgorithmState	KEYWORD2
+GetTmpComp	KEYWORD2
+SetTmpComp	KEYWORD2
+GetWarmStart	KEYWORD2
+SetWarmStart	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# general errors
+SEN55_ERR_OK	LITERAL1
+SEN55_ERR_DATALENGTH	LITERAL1
+SEN55_ERR_UNKNOWNCMD	LITERAL1
+SEN55_ERR_ACCESSRIGHT	LITERAL1
+SEN55_ERR_PARAMETER	LITERAL1
+SEN55_ERR_OUTOFRANGE	LITERAL1
+SEN55_ERR_CMDSTATE	LITERAL1
+SEN55_ERR_TIMEOUT	LITERAL1
+SEN55_ERR_PROTOCOL	LITERAL1
+
+# device status
+STATUS_OK_55	LITERAL1
+STATUS_SPEED_ERROR_55	LITERAL1
+STATUS_LASER_ERROR_55	LITERAL1
+STATUS_FAN_ERROR_55	LTTERAL1
+STATUS_GAS_ERROR_55	LTTERAL1
+STATUS_RHT_ERROR_55	LTTERAL1
+STATUS_FAN_CLEAN_ACTIVE_55	LTTERAL1
+
+
