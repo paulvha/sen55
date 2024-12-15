@@ -9,38 +9,45 @@
  *  Version 1.0 / October 2024 / Paulvha
  *  -initial version
  *
- * *  ..........................................................
+ *  December 2024 / paulvha
+ *  - update wiring
+ *   ..........................................................
  *  Successfully tested on UNO R4
- *
- *  SEN55 pin     UNO R4
- *  1 VCC -------- 5V
- *  2 SDA -------- SDA
- *  3 SCL -------- SCL
- *  4 Select ----- GND  (select I2c)
- *  5 GND -------- GND
- *  6 NOT USED
+ * 
+ *  //////////////// SEN55 //////////////////////
+ *  SEN55 Pinout (back / sideview)
  *  
- *  The pull-up resistors should be to 5V.
- *  SEN55 Pinout (backview)
  *  ---------------------
  *  ! 1 2 3 4 5 6        |
  *  !___________         |
  *              \        |  
  *               |       |
  *               """""""""
- *               
- *  SPS30 pin     UNO R4
+ *  Wire
+ *  SEN55 pin     UNO R4
  *  1 VCC -------- 5V
- *  2 RX  -------- TX 
- *  3 TX  -------- RX 
- *  4 Select      (NOT CONNECTED)
- *  5 GND -------- GND
- * 
- *  SPS30 Pinout (backview)
+ *  2 GND -------- GND
+ *  3 SDA -------- SDA
+ *  4 SCL -------- SCL
+ *  5 Select ----- GND  (select I2c)
+ *  6 NC
+ *  
+ *  The pull-up resistors to 5V.
+ *  
+ *  //////////////// SPS30 //////////////////////
+ *  
+ *  SPS30 Pinout (backview) SERIAL !!
  *  ----------------------
  *  |                    |
  *  |          1 2 3 4 5 |
  *  ----------------------
+ *    
+ *  SPS30 pin     UNO R4
+ *  1 VCC -------- 5V
+ *  2 RX  -------- TX
+ *  3 TX  -------- RX 
+ *  4 Select      (NOT CONNECTED)
+ *  5 GND -------- G
  *  
  *  
  *  ================================ Disclaimer ======================================

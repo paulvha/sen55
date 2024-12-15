@@ -9,8 +9,7 @@ tested to run I2C communication on UNOR4, Artemis ATP, UNOR3, ATmega, Due, ESP32
 
 ## Getting Started
 As part of a larger project I am looking at analyzing and understanding the air quality.
-I have done a number of projects on air-sensors, including the SPS30 from Sensirion. 
-This is a version of a working driver + examples.
+I have done a number of projects on air-sensors. This is a version of a working driver + examples.
 More work continues to happen to create examples and compare against other sensors.
 
 ## Prerequisites
@@ -29,6 +28,9 @@ Please see the description in the top of the sketch and read the documentation (
 ### Version 1.0.0 / October 2024
  * initial version
 
+### Version 1.0.1 / December 2024
+ * update wiring
+ 
 ## Author
  * Paul van Haastrecht (paulvha@hotmail.com)
 

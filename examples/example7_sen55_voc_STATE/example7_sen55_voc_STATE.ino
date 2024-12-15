@@ -24,7 +24,10 @@
  * 
  *  Tested on UNOR4, Artemis ATP, UNOR3, ATmega, Due, ESP32
  * 
- *  SEN55 Pinout (backview)
+ *  December 2024 / paulvha
+ *  - update wiring
+ *   ..........................................................
+ *  SEN55 Pinout (back  sideview)
  *  ---------------------
  *  ! 1 2 3 4 5 6        |
  *  !___________         |
@@ -36,10 +39,10 @@
  *
  *  SEN55 pin     ESP32
  *  1 VCC -------- VUSB
- *  2 SDA -------- SDA (pin 21)
- *  3 SCL -------- SCL (pin 22)
- *  4 Select ----- GND (select I2c)
- *  5 GND -------- GND
+ *  2 GND -------- GND
+ *  3 SDA -------- SDA (pin 21)
+ *  4 SCL -------- SCL (pin 22)
+ *  5 Select ----- GND (select I2c)
  *  6 NOT used/connected
  *
  *  The pull-up resistors should be to 3V3
@@ -49,10 +52,10 @@
  *
  *  SEN55 pin     ATMEGA
  *  1 VCC -------- 5V
- *  2 SDA -------- SDA
- *  3 SCL -------- SCL
- *  4 Select ----- GND  (select I2c)
- *  5 GND -------- GND
+ *  2 GND -------- GND
+ *  3 SDA -------- SDA
+ *  4 SCL -------- SCL
+ *  5 Select ----- GND  (select I2c)
  *  6 NOT used/connected
  *
  *  ..........................................................
@@ -60,24 +63,24 @@
  *
  *  SEN55 pin     UNO
  *  1 VCC -------- 5V
- *  2 SDA -------- A4
- *  3 SCL -------- A5
- *  4 Select ----- GND  (select I2c)
- *  5 GND -------- GND
+ *  2 GND -------- GND
+ *  3 SDA -------- A4
+ *  4 SCL -------- A5
+ *  5 Select ----- GND  (select I2c)
  *  6 NOT used/connected
  *
  *  When UNO-board is detected some buffers reduced and the call 
  *  to GetErrDescription() is removed to allow enough memory.
  *  
  *  ..........................................................
- *  Successfully tested on UNO R4 & Artemis/Apollo3 Sparkfun
+ *  Successfully tested on UNO R4  & Artemis/Apollo3 Sparkfun
  *
  *  SEN55 pin     UNO R4
  *  1 VCC -------- 5V
- *  2 SDA -------- SDA
- *  3 SCL -------- SCL
- *  4 Select ----- GND  (select I2c)
- *  5 GND -------- GND
+ *  2 GND -------- GND
+ *  3 SDA -------- SDA
+ *  4 SCL -------- SCL
+ *  5 Select ----- GND  (select I2c)
  *  6 NOT used/connected
  *  
  *  The pull-up resistors should be to 5V.

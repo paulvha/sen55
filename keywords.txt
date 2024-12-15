@@ -56,12 +56,12 @@ offset	KEYWORD1
 slope	KEYWORD1
 time	KEYWORD1
 
+SEN55	KEYWORD1
+sen55	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-SEN55	KEYWORD2
-sen55	KEYWORD2
 begin	KEYWORD2
 EnableDebugging	KEYWORD2
 probe	KEYWORD2
